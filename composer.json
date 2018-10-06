@@ -1,0 +1,24 @@
+{
+    "name": "yosmy/upgrade",
+    "description": "",
+    "require": {
+        "php": ">=7.2",
+        "ext-mongodb": "*",
+        "yosmy/mongo": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yosmy\\": [
+                "src"
+            ]
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://php.yosmy.com"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
